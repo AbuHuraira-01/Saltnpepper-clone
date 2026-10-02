@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("./Assets/fonts/FuturaBlack BT Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+
+}
+
+nav > img {
+    height: 75px;
+    width: 180px;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    display: inline;
+    font-size: 18px;
+}
+
+nav > ul > li > button {
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.sb {
+    margin-left: 20px;
+}
+
+
+.sb > button {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.sb > button > i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+span {
+    margin: 4px;
+}
+
+.hero-section > img {
+    width: 1350px;
+}
+
+.Brand-section {
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Brand-section > .sp0{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+.sp {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    word-spacing: 2px;
+    color: gray;
+}
+
+.Brand-section span {
+    font-family: "myfont";
+}
+ 
+.cardp {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card > img {
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    display: block;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-block: 30px;
+    border-radius: 3px;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card4 > img {
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-block: 30px;
+    border-radius: 3px;
+}
+
+.card > button {
+    border: 1px solid rgb(167, 160, 160);
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    border-radius: 50px;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+.card4 > button {
+    border: 1px solid rgb(167, 160, 160);
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    border-radius: 50px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.spp {
+    font-size: 50px;
+    text-align: center;
+}
+
+.spp > span {
+    font-family: "myfont";
+}
+
+.spp2 {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+.rc1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 50px;
+
+}
+
+.rcs > p {
+    margin-bottom: 40px;
+}
+
+.fsb {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+.rcs > p > span {
+    font-family: "myfont";
+}
+
+.snpx {
+    font-size: 35px;
+}
+
+.same {
+    color: grey;
+}
+
+.rcs > button {
+    border: 1px solid rgb(124, 123, 123);
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.rcs > button > i {
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    border-radius: 100%;
+    /* margin-left: 10px; */
+    padding: 5px 14px 5px 14px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    bottom: 15px;
+}
+
+.franchise2 {
+    height: 400px;
+}
+
+.rc2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 300px; */
+}
+
+.rc2vimg {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.rc2v {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bwlpr {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+}
+
+.rc2v > p > span {
+    font-family: "myfont";
+}
+
+.bpp {
+    font-size: 35px;
+}
+
+.samee {
+    color: grey;
+}
+
+.rc2v > button {
+    border: 1px solid rgb(124, 123, 123);
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    padding-right: 50px;
+    cursor: pointer;
+    width: 180px;
+    padding-left: 10px;
+}
+
+.rc2v > button > i {
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 5px 14px 5px 14px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    bottom: 15px;
+}
+
+.mfc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.express-franchises > p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.express-franchises > p > span {
+    font-family: "myfont";
+}
+
+.sameee {
+    width: 350px;
+    height: 250px;
+}
+
+.fc {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fc > :nth-child(2) {
+    color: red;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.fc > p > span {
+    font-family: "myfont";
+}
+
+.fc > :nth-child(3) {
+    font-size: 25px;
+}
+
+.fc > :nth-child(4),
+.fc > :nth-child(5) {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.fc > button {
+    border: 1px solid rgb(124, 123, 123);
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative; 
+    padding-right: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.fc > button > i {
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    border-radius: 100%;
+    /* margin-left: 10px; */
+    padding: 5px 14px 5px 14px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    bottom: 15px;
+}
+
+.fc > :not(:first-child):not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.village-franchise > p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.village-franchise > p > span {
+    font-family: "myfont";
+}
+
+.vfc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.vfcimg {
+    width: 663.5px;
+    height: 380.08px;
+}
+
+.gujjar {
+    color: red;
+    letter-spacing: 5px;
+}
+
+.vfcs > p > span {
+    font-family: "myfont";
+}
+
+.vfcs > :nth-child(2) {
+    font-size: 35px;
+}
+
+.vfcs > :nth-child(3),
+.vfcs > :nth-child(4) {
+    color: gray;
+}
+
+.vfcs > button {
+    border: 1px solid rgb(124, 123, 123);
+    color: white;
+    background-color: #28A745;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    padding-right: 50px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s; 
+}
+
+.vfcs > button:hover {
+    background-color: black;
+}
+
+.vfcs > button > i {
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    border-radius: 100%;
+    /* margin-left: 10px; */
+    padding: 5px 14px 5px 14px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    bottom: 15px;
+}
+
+.vfcs {
+    margin-left: 30px;
+}
+
+.vfcs > p {
+    margin-bottom: 20px;
+}
+
+.vfcs > :last-child {
+    margin-top: 30px;
+}
+
+.vfc {
+    margin-top: 40px;
+}
+
+.sp1 {
+    font-family: "myfont";
+}
+
+.cs-franchise {
+    margin-top: 100px;
+}
+
+.cs-franchise > :first-child {
+    text-align: center;
+    font-size: 50px;
+}
+
+.sp2 {
+    font-size: 27px;
+}
+
+.cs0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 30px;
+    margin-top: 40px;
+}
+
+.cs {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    /* margin: 50px; */
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+.cs :nth-child(2) > span {
+    color: red;
+}
+
+.cs :nth-child(3) > span {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cs :nth-child(n+2) {
+    font-size: 20px;
+}
+
+.cs :nth-child(2) {
+    margin-block: 10px;
+}
+
+.cs > :nth-child(n+3) {
+    line-height: 30px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+.f01 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 60px;
+    /* flex-direction: row; */
+}
+
+.fsc > :first-child {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.f {
+    font-weight: 600;
+    margin-block: 15px;
+}
+
+.fsc > :not(:first-child):not(.f) {
+    color: rgb(170, 167, 167);
+}
+
+.f01 > :not(:first-child)  > p {
+    line-height: 25px;
+}
+
+.fsc1 > img {
+    margin-bottom: 25px;
+}
+
+.fsc2 > p {
+    margin-top: 13px;
+}
+
+.social > i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 25px;
+}
+
+.providers {
+    display: flex;
+    flex-direction: column;
+}
+
+.providers > img {
+    margin-bottom: 10px;
+}
+
+.sub-footer {
+    margin-bottom: 20px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 720px;
+    font-weight: 600;
+}
